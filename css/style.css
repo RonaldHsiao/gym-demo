@@ -2,7 +2,7 @@ body{
     background-color: lightsalmon;
     background-image: url("images/gym2.jpg");
     background-size: contain;
-    color: black;
+    color: white;
     font-family:標楷體;
     border-radius: 20px;
     margin: 25px 24px 25px 24px;
@@ -17,28 +17,28 @@ body{
     border: black 2px ;
 }
 #textform{
-    text-align: center;
-}
-form{
-    background-color:white ;
-    background-image: url("images/gym1.jfif");
-    background-size: cover;
-    padding: 1rem;
-    border-radius: 1rem;
-    margin-top: 6px;
-}
+        text-align: center;
+    }
+    form{
+        background-color:white ;
+        background-image: url("../images/gym1.jfif");
+        background-size: cover;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-top: 6px;
+    }
 
-input,
-textarea,
-label,
-button{
-    margin: 12px 0px;
-    font-size: 24px;
-    border-radius: 2px;
-}
-button{
-    background-color: green;
-}
+    input,
+    textarea,
+    label,
+    button{
+        margin: 12px 0px;
+        font-size: 24px;
+        border-radius: 2px;
+    }
+    button{
+        background-color: green;
+    }
 
 
 

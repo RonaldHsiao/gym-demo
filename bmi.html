@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+            background: white;
+        }
+
+        a {
+            color: black;
+        }
+
+        @media screen and (max-width:1024px) {
+            table {
+                width: 100%;
+            }
+
+            form {
+                width: 80%;
+                font-size: 12px;
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1>BMI計算器</h1>
+    <form action="">
+        <label for="name">姓名:</label>
+        <input type="text" id="username" name="username" value ="Ronald"placeholder="輸入姓名"><br>
+        <label for="height">身高:</label>
+        <input type="number" id="height" name="height" value = "198" placeholder="輸入身高"><br>
+        <label for="weight">體重:</label>
+        <input type="number" id="weight" name="weight" value = "80" placeholder="輸入體重"><br>
+        <button type="button" onclick="calcBmi()">送出</button>
+    </form>
+    <a href="/index.html">回首頁</a>
+    <script src="./js/bmi.js"></script>
+</body>
